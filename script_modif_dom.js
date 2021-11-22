@@ -76,8 +76,9 @@ function changeNewsNode(){
   //document.getElementsByClassName("row")[1].appendChild(node);
   document.getElementsByClassName("album py-5 bg-light")[0].getElementsByTagName("div")[0].appendChild(node);
   //document.getElementsByClassName("row")[1].appendChild(node);
-  //document.getElementsByClassName("row")[1].appendChild(document.getElementsByClassName("card mb-4 box-shadow")[2]);
-  document.getElementsByClassName("row")[1].appendChild(document.getElementsByClassName("row")[0].getElementsByClassName("card mb-4 box-shadow")[2]);
+  document.getElementsByClassName("row")[2].appendChild(document.getElementsByClassName("col-md-4")[2]);
+  //document.querySelector('div.row')[0].after(node);
+  //document.getElementsByClassName("row")[1].appendChild(document.getElementsByClassName("row")[0].getElementsByClassName("card mb-4 box-shadow")[2]);
   /*let parentDiv = document.getElementsByClassName("container");
   let theFirstChild = parentDiv.firstChild;
   let div = document.createElement('div');
